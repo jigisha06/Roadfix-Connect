@@ -45,10 +45,3 @@ export interface UserStats {
   created_at: string;
   updated_at: string;
 }
-
-export interface ReportConfirmation {
-  id: string;
-  report_id: string;
-  user_id: string;
-  confirmed_at: string;
-}
